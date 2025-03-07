@@ -1,0 +1,23 @@
+#circle {
+    background:red;;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position:relative;
+    top:50px;
+    left: 300px;
+    animation-name:cambio-color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambio-color {
+  from{background-color:red
+  }
+  30% { background-color:cyan
+    
+  }
+  60% {background-color:black
+  }
+  to{background-color: yellow}
+}
